@@ -1,0 +1,48 @@
+ul li i {
+  font-size: 15px;
+  padding-left: 10px;
+  color: #fff;
+  padding-right: 6px;
+  padding-top: 3px;
+}
+hr {
+  opacity: 0.15;
+}
+.container-head {
+  margin: 0 14px;
+  padding: 0px 12px;
+  width: 100%;
+  font-size: 14px;
+}
+
+form {
+  height: 45px;
+  box-shadow: 0 0 0 1px #e2e2e2;
+  position: relative;
+  width: 650px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+form .search-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 35px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #f39910;
+  color: white;
+}
+.icon-end i {
+  cursor: pointer;
+  color: lightgrey;
+
+  font-size: 25px;
+  padding: 0px;
+}
