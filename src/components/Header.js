@@ -127,9 +127,9 @@ const Header = () => {
         </div>
       </div>
       <div className="bottom-header">
-        <div className="row">
-          <div className="col-xl-3">
-            <div className="toggle-sidebar">
+        <div className="row"  style={{ padding: "4px 30px" , paddingBottom:"13px"}}>
+          <div className="col-xl-3" style={{width:"25%"}}>
+            <div className="toggle-sidebar d-flex justify-center">
               <i>
                 <FaBars />
               </i>
@@ -138,7 +138,7 @@ const Header = () => {
           </div>
           <div className="col-xxl-6 col-xl-9 position-unset">
             <div className="bottom-nav-center">
-              <nav>
+              <nav className="d-flex justify-content-between" >
                 <ul class="nav nav-pills">
                   <li class="nav-item">
                     <a>Home</a>

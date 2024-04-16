@@ -19,7 +19,7 @@ form {
   height: 45px;
   box-shadow: 0 0 0 1px #e2e2e2;
   position: relative;
-  width: 650px;
+  width: 700px;
   background-color: #f5f5f5;
   border-radius: 5px;
 }
@@ -45,4 +45,30 @@ form .search-btn {
 
   font-size: 25px;
   padding: 0px;
+}
+.toggle-sidebar{
+    padding-top: 8px;
+    background-color: #f39910;
+    width: 100%;
+    text-align: center;
+    height: 143%;
+    color: #fff;
+    cursor: pointer;
+}
+.toggle-sidebar i{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    padding-top: 4px;
+}
+.toggle-sidebar {
+    display: inline-block;
+    color: #fff;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.bottom-nav-center nav{
+font-size: 18px;
+display: flex;
+justify-content: space-between;
 }
