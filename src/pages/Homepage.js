@@ -7,6 +7,7 @@ const Homepage = () => {
   return (
     <>
     <Header/>
+    <HeroSection/>
    {/* <Footer/> */}
     </>
   )

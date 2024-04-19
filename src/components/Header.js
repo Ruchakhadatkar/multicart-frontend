@@ -11,6 +11,7 @@ import { IoSearch } from "react-icons/io5";
 import { FaBars } from "react-icons/fa6";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BsCart3 } from "react-icons/bs";
+import Features from "./Features";
 
 const Header = () => {
   return (
@@ -138,11 +139,12 @@ const Header = () => {
           </div>
           <div className="col-xxl-6 col-xl-9 position-unset">
             <div className="bottom-nav-center">
-              <nav className="d-flex justify-content-between" >
-                <ul class="nav nav-pills">
+              <nav className=" dropdowns d-flex justify-content-around" >
+                <ul class="nav nav-pills d-flex justify-content-around">
                   <li class="nav-item">
                     <a>Home</a>
                   </li>
+                  <Features/>
                   <li class=" dropdown">
                     <a
                       class=" dropdown-toggle"
@@ -405,7 +407,9 @@ const Header = () => {
               </nav>
             </div>
           </div>
-          <div className="col-xxl-3 d-none d-xxl-inline-block"></div>
+          <div className="col-xxl-3 d-none d-xxl-inline-block">
+
+          </div>
         </div>
       </div>
     </header>
