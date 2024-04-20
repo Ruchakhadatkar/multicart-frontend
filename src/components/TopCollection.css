@@ -1,0 +1,73 @@
+.heading-cotainer h2 {
+  font-family: "Fraunces", serif;
+  margin: 65px auto;
+  margin-bottom: 14px;
+  font-size: 34px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+.heading-cotainer p {
+  /* font-family: "Fraunces", serif; */
+  font-size: 14px;
+  color: #777;
+  color: #777;
+  text-align: center;
+  padding: 0px 24rem;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-bottom: 30px;
+}
+
+.products {
+  padding-bottom: 70px;
+  margin: 0px 13px;
+  padding: 0px 12px;
+}
+.ratig i {
+  color: #ffa200;
+}
+.card-img-top {
+  /* max-width: 100%; */
+  /* height: auto; */
+}
+.products {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  width: 16%;
+}
+.card-body {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  margin-top: 8px;
+  text-align: center;
+}
+.name h6 {
+  line-height: 1;
+  margin-bottom: 0;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  /* -webkit-transition: all 0.5s ease; */
+  transition: all 0.5s ease;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.name h4 {
+  font-size: 18px;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 0;
+  transition: all 0.5s ease;
+}
+.btn{
+  bottom: 0;
+    position: relative;
+    opacity: 1;
+    margin-top: 8px;
+    animation: none;
+}
