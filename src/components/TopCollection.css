@@ -21,21 +21,27 @@
 
 .products {
   padding-bottom: 70px;
-  margin: 0px 13px;
+  margin: 16px 0px;
   padding: 0px 12px;
-}
-.ratig i {
-  color: #ffa200;
-}
-.card-img-top {
-  /* max-width: 100%; */
-  /* height: auto; */
-}
-.products {
   position: relative;
   overflow: hidden;
   z-index: 0;
-  width: 16%;
+}
+.rating {
+  font-size: 14px;
+  gap: 7px;
+  margin: 4px 0px;
+}
+.star {
+  color: #ffa200;
+}
+.gray-start {
+  color: #bfbfbf;
+}
+
+.card {
+  width: 16.66%;
+  flex-wrap: wrap;
 }
 .card-body {
   padding: 0;
@@ -43,12 +49,14 @@
   position: relative;
   margin-top: 8px;
   text-align: center;
+  /* width: 100%; */
+  margin: auto;
 }
 .name h6 {
   line-height: 1;
   margin-bottom: 0;
-  padding-top: 2px;
-  padding-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 3px;
   /* -webkit-transition: all 0.5s ease; */
   transition: all 0.5s ease;
   font-size: 16px;
@@ -56,18 +64,29 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-weight: 400;
+  color: #777;
 }
 .name h4 {
-  font-size: 18px;
+  font-size: 19px;
   color: #222;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 0;
   transition: all 0.5s ease;
 }
-.btn{
+.btn {
   bottom: 0;
-    position: relative;
-    opacity: 1;
-    margin-top: 8px;
-    animation: none;
+  position: relative;
+  opacity: 1;
+  margin-top: 4px;
+  animation: none;
+  color: #ffa200;
+  margin: auto;
+  cursor: pointer;
+}
+.btn i {
+  color: #ffa200;
+  font-size: 18px;
+  margin-top: 3px;
+  margin-right: 4px;
 }
