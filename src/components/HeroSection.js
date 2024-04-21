@@ -7,7 +7,7 @@ import headphonesimg from "./../Assets/HeroSection/headphones.jpg";
 
 const HeroSection = () => {
   return (
-    <>
+    < div className="hero-container1">
       <div
         id="carouselExampleInterval"
         class="carousel slide"
@@ -64,7 +64,7 @@ const HeroSection = () => {
           }}
         >
           <div class="row m-0 d-flex flex-wrap">
-            <div class="col-lg-3 col-sm-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0" style={{ position: "relative" }}>
               <a>
                 <div className="image-div p-left">
                   <img src={cameraimg} />
@@ -78,7 +78,7 @@ const HeroSection = () => {
               </a>
             </div>
 
-            <div class="col-lg-3 col-sm-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0" style={{ position: "relative" }}>
               <a href="">
                 <div className="image-div">
                   <img src={laptopimg} alt="" />
@@ -92,7 +92,7 @@ const HeroSection = () => {
               </a>
             </div>
 
-            <div class="col-lg-3 col-sm-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0" style={{ position: "relative" }}>
               <a href="">
                 <div className="image-div">
                   <img src={shoeimg} alt="" />
@@ -106,7 +106,7 @@ const HeroSection = () => {
               </a>
             </div>
 
-            <div class="col-lg-3 col-sm-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0" style={{ position: "relative" }}>
               <a href="">
                 <div className="image-div">
                   <img src={headphonesimg} alt="" />
@@ -122,7 +122,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

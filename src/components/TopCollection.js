@@ -17,7 +17,7 @@ import product12 from "./../Assets/ShoppingItem/product12.jpg";
 
 const TopCollection = () => {
   return (
-    <div className="div" style={{ paddingBottom: "70px" }}>
+    <div className="div" style={{ paddingBottom: "70px", margin: "0 auto" }}>
       <div className="heading-cotainer">
         <h2>TOP COLLECTION</h2>
         <p>
