@@ -40,8 +40,7 @@
 }
 
 .card {
-  width: 16.66%;
-  flex-wrap: wrap;
+  width: 233px;
 }
 .card-body {
   padding: 0;
