@@ -46,38 +46,60 @@ form .search-btn {
   font-size: 25px;
   padding: 0px;
 }
-.toggle-sidebar{
-    padding-top: 8px;
-    background-color: #f39910;
-    width: 101%;
-    text-align: center;
-    height: 144%;
-    color: #fff;
-    cursor: pointer;
+.toggle-sidebar {
+  padding-top: 8px;
+  background-color: #f39910;
+  width: 101%;
+  text-align: center;
+  height: 144%;
+  color: #fff;
+  cursor: pointer;
 }
-.toggle-sidebar i{
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 16px;
-    padding-top: 4px;
+.toggle-sidebar i {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  padding-top: 4px;
 }
 .toggle-sidebar {
-    display: inline-block;
-    color: #fff;
-    font-size: 19px;
-    text-transform: capitalize;
+  display: inline-block;
+  color: #fff;
+  font-size: 19px;
+  text-transform: capitalize;
 }
-.bottom-nav-center nav{
-font-size: 18px;
-display: flex;
-justify-content: space-between;
-
+.bottom-nav-center nav {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
 }
-.dropdowns ul li{
+.dropdowns ul li {
   margin: 0px 16px;
   font-size: 18px;
 }
-.dropdown a{
+.dropdown a {
   font-size: 17px;
+}
 
+@media only screen and (max-width: 990px) {
+  .top-header {
+    display: none !important;
+  }
+  .main-menu form{
+    width: 400px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .bottom-header {
+    display: none !important;
+  }
+  .search-area {
+    display: none !important;
+  }
+  .main-menu form{
+    width: 400px;
+    height: 40px;
+
+  }
 }

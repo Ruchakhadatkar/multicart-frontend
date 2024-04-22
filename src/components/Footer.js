@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
@@ -25,7 +25,7 @@ const Footer = () => {
             className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
           >
-            <img src={multikart} alt="" className="mb-5"/>
+            <img src={multikart} alt="" className="mb-5" />
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -141,20 +141,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="end-footer md:flex">
-        <div
-          className="grid md:flex grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
-      text-center pt-2 text-gray-400 text-sm pb-8"
-        >
-          <p className="md:flex">
-            <i>
-              <FaRegCopyright />
-              2023-24 themeforest powered by pixelstrap
+      <div className="end-footer d-flex">
+        <div className=" d-flex">
+          <p className="text-end d-flex align-items-center">
+            <i className="d-flex">
+              <FaRegCopyright className="c-icon"/>
+              <p>2023-24 themeforest powered by pixelstrap</p>
             </i>
           </p>
         </div>
-        <div className="pay-cards">
-          <ul className="md:flex">
+        <div className="pay-cards d-flex justify-content-end">
+          <ul className="d-flex justify-content-end gap-3  align-items-center">
             <li>
               <img src={visa} alt="" />
             </li>

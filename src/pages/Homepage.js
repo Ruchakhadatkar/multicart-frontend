@@ -11,7 +11,6 @@ const Homepage = () => {
     <Header/>
     <HeroSection/>
     <TopCollection/>
-   {/* <Footer/> */}
     </>
   )
 }
