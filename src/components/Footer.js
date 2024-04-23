@@ -19,13 +19,13 @@ import multikart from "./../Assets/multicart.png";
 const Footer = () => {
   return (
     <footer className=" text-white  ">
-      <div className="md:flex gap-x-10 md:justify-between md:items-center sm:px-12  py-14 bg-[#394868]">
+      <div className=" footer-top md:flex gap-x-0 md:justify-between md:items-center sm:px-8  py-14 bg-[#394868]">
         <div className="multikart">
           <h1
             className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
           >
-            <img src={multikart} alt="" className="mb-5" />
+            <img src={multikart} alt="" className="mb-3" />
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="my-account">
-          <h2>NY ACCOUNT</h2>
+          <h2>MY ACCOUNT</h2>
           <div className="sub-item">
             <ul>
               <li>Mens</li>
@@ -89,66 +89,56 @@ const Footer = () => {
             type="text"
             placeholder="Enter Your Email"
             className="text-gray-800
-           sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
+           sm: w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5  px-2 focus:outline-none"
           />
           <button
-            className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
-           rounded-md text-white md:w-auto w-full"
+            className=" hover:bg-white duration-300 px-5 py-2.5 font-[Poppins]
+            text-white md:w-auto w-full"
           >
             SUBSCRIBE
           </button>
           <div className="social">
-            <ul className="md:flex">
+            <ul className=" social-ul md:flex">
               <li>
-                <a href="">
-                  <i>
-                    <FaFacebookF />
-                  </i>
-                </a>
+                <i className="icon-so">
+                  <FaFacebookF />
+                </i>
               </li>
               <li>
-                <a href="">
-                  <i>
-                    <IoLogoGoogleplus />
-                  </i>
-                </a>
+                <i className="icon-so">
+                  <IoLogoGoogleplus />
+                </i>
               </li>
 
               <li>
-                <a href="">
-                  <i>
-                    <FaTwitter />
-                  </i>
-                </a>
+                <i className="icon-so">
+                  <FaTwitter />
+                </i>
               </li>
 
               <li>
-                <a href="">
-                  <i>
-                    <FaInstagram />
-                  </i>
-                </a>
+                <i className="icon-so">
+                  <FaInstagram />
+                </i>
               </li>
 
               <li>
-                <a href="">
-                  <i>
-                    <IoIosWifi />
-                  </i>
-                </a>
+                <i>
+                  <IoIosWifi className="icon-so" />
+                </i>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="end-footer d-flex">
-        <div className=" d-flex">
-          <p className="text-end d-flex align-items-center">
+        <div className="left-end d-flex">
+          <div className="text-end d-flex align-items-center">
             <i className="d-flex">
-              <FaRegCopyright className="c-icon"/>
+              {/* <FaRegCopyright className="c-icon" /> */}
               <p>2023-24 themeforest powered by pixelstrap</p>
             </i>
-          </p>
+          </div>
         </div>
         <div className="pay-cards d-flex justify-content-end">
           <ul className="d-flex justify-content-end gap-3  align-items-center">

@@ -18,11 +18,11 @@ const Header = () => {
     <header className="" style={{ backgroundColor: "#394868", color: "white" }}>
       <div className="top-header d-flex ">
         <div className="container-head">
-          <div className="row">
+          <div className="row header-row">
             <div className="col-lg-6 d-flex justify-start">
-              <div className="header-contact  " style={{ padding: "15px 0px" }}>
+              <div className="header-contact  " style={{ padding: "6px 0px" }}>
                 <ul className="d-flex">
-                  <li style={{ paddingRight: "25px" }}>
+                  <li style={{ paddingRight: "14px" }}>
                     Welcome to Our store Multikart
                   </li>
                   <li className="d-flex">
@@ -35,9 +35,9 @@ const Header = () => {
               </div>
             </div>
             <div className="col-lg-6 d-flex justify-end">
-              <div className="header-contact" style={{ padding: "15px 0px" }}>
+              <div className="header-contact" style={{ padding: "6px 0px" }}>
                 <ul className="d-flex">
-                  <li className="d-flex" style={{ paddingRight: "25px" }}>
+                  <li className="d-flex" style={{ paddingRight: "14px" }}>
                     <i>
                       <FaTruck />
                     </i>
@@ -79,7 +79,7 @@ const Header = () => {
                     }}
                   />
                   <button className="search-btn">
-                    <i style={{ fontSize: "23px", paddingTop: "6px" }}>
+                    <i style={{ fontSize: "23px", paddingTop:"4px" }}>
                       <IoSearch />
                     </i>
                   </button>
@@ -90,7 +90,7 @@ const Header = () => {
                     style={{ paddingTop: "8px" }}
                   >
                     <div className="like-user">
-                      <ul className="d-flex gap-4">
+                      <ul className="d-flex gap-3">
                         <li>
                           <i>
                             <FiHeart />
